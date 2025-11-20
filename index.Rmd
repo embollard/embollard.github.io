@@ -6,12 +6,12 @@ output: html_document
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## [ABOUT ME](./about-me) | [CV](./Final CV Graduate School.pdf) | [BIOL-3100-Final-Project](./BIOL-3100-Final)##
+  ## [ABOUT ME](about-me/Final CV Graduate School.pdf) | [BIOL-3100-Final-Project](./BIOL-3100-Final)##
 
 # **Evangeline Bollard - Bioinformatician** #
 
 ```{r, out.width="60%", echo=FALSE}
-knitr::include_graphics("20240804_114446.jpg")
+knitr::include_graphics("media/20240804_114446.jpg")
 ```
 
 
