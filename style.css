@@ -2,18 +2,23 @@
 /* --- FULL SCREEN BACKGROUND IMAGE --- */
 
 body {
-  /* 1. Specify the image file and path */
-  background-image: url('media/DNA_strands.PNG');
+  /* 1. Set DNA_strands.png as the background image */
+  background-image: url('media/DNA_strands.png'); 
 
-  /* 2. Scale the image to cover the entire viewport */
+  /* 2. Scale the image to cover the entire viewport, ensuring no white space */
   background-size: cover; 
   
-  /* 3. Center the image horizontally and vertically */
+  /* 3. Center the image (useful if the aspect ratio doesn't perfectly match the screen) */
   background-position: center center; 
   
-  /* 4. Prevent the image from tiling/repeating */
+  /* 4. Prevent the image from tiling */
   background-repeat: no-repeat; 
 
   /* 5. Keep the background fixed when the user scrolls */
-  background-attachment: fixed;
+  background-attachment: fixed; 
 }
+
+/* Optional: Add some padding to the top of the body so the text isn't right against the top of the screen */
+/* body {
+  padding-top: 20px;
+} */
