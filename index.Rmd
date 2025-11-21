@@ -3,10 +3,6 @@ output: html_document
 css: style.css
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
-
   ## [ABOUT ME](about-me/Final CV Graduate School.pdf) | [BIOL-3100-Final-Project](./BIOL-3100-Final)##
 
 # **Evangeline Bollard - Bioinformatician** #
