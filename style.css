@@ -5,4 +5,7 @@ body {
   background-position: center center; 
   background-repeat: no-repeat; 
   background-attachment: fixed; 
+/* Center all main (H1) headings */
+h1 {
+  text-align: center;
 }
