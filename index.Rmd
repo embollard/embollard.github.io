@@ -1,5 +1,6 @@
 ---
 output: html_document
+css: style.css
 ---
 
 ```{r setup, include=FALSE}
@@ -10,9 +11,5 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # **Evangeline Bollard - Bioinformatician** #
 
-```{r, out.width="60%", echo=FALSE}
+```{r, out.width="50%", echo=FALSE, fig.align='center'}
 knitr::include_graphics("media/20240804_114446.jpg")
-```
-
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
