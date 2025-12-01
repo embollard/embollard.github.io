@@ -3,9 +3,9 @@ output: html_document
 css: style.css
 ---
 
-  ## [ABOUT ME](about-me/Final CV Graduate School.pdf) | [BIOL-3100-Final-Project](./BIOL-3100-Final)##
+  ## [ABOUT ME](about-me/Final CV Graduate School.pdf) | [BIOL-3100-Final-Project](./Final_Project.html)##
 
 # **Evangeline Bollard - Bioinformatician** #
 
 ```{r, out.width="50%", echo=FALSE, fig.align='center'}
-knitr::include_graphics("media/20240804_114446.jpg")
+knitr::include_graphics("media/20240804_114446.jpg")'''
