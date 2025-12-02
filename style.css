@@ -1,9 +1,6 @@
-/* --- FULL SCREEN BACKGROUND IMAGE --- */
-
 body {
     /* 1. Set DNA_strands.png as the background image */
-    background-image: url('media/DNA_strands.png'); 
-
+    
     /* 2. Scale the image to cover the entire viewport, ensuring no white space */
     background-size: cover; 
     
@@ -14,27 +11,20 @@ body {
     background-repeat: no-repeat; 
 
     /* 5. Keep the background fixed when the user scrolls */
-    background-attachment: fixed; 
-}
+    background-attachment: fixed;
 
 /* --- CONTENT READABILITY LAYER --- */
 
 /* Targets the main content containers (common R Markdown classes) */
 .container, div.row, div.col-md-9 {
-    /* Set a semi-transparent white background for the main content area */
+    /* Set a semi-transparent white background */
     background-color: rgba(255, 255, 255, 0.85); /* 85% opaque white */
     
-    /* Add padding so the text isn't glued to the edge of the white box */
+    /* Padding, rounded corners, and centering */
     padding: 20px 30px; 
-    
-    /* Add subtle presentation: rounded corners and a slight shadow */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-    
-    /* Center the content container on the page and add margin at top/bottom */
     margin: 50px auto; 
-    
-    /* Set a maximum width for better viewing on large screens */
     max-width: 900px;
 }
 
@@ -55,6 +45,15 @@ a:link, a:visited {
 a:hover {
     color: #0056b3; /* Darker blue on hover */
     text-decoration: underline; /* Add underline on hover */
+}
+
+/* Alternative: Targets the main content wrapper */
+#main {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px 30px; 
+    border-radius: 10px;
+    margin: 50px auto; 
+    max-width: 900px;
 }
     margin: 50px auto; 
     
