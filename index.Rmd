@@ -1,9 +1,9 @@
 ---
 output: html_document
-
+css: style.css
 ---
 
-[ABOUT ME](about-me/Final CV Graduate School.pdf) | [Biol. 3100](./Final_Project.html)
+[About Me](about-me/Final CV Graduate School.pdf) | [Biol. 3100 Final Project](./Final_Project.html)
 
 
 ```{r, out.width="50%", echo=FALSE, fig.align='center'}
@@ -11,4 +11,3 @@ knitr::include_graphics("media/20240804_114446.jpg")
 
 ```
 
-#```{r child-project, child='final_project.Rmd'}

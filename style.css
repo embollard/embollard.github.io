@@ -1,5 +1,6 @@
 body {
     /* 1. Set DNA_strands.png as the background image */
+    background-image: url('media/DNA_strands.png');
     
     /* 2. Scale the image to cover the entire viewport, ensuring no white space */
     background-size: cover; 
