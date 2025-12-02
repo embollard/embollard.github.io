@@ -1,6 +1,6 @@
 ---
 output: html_document
-css: style.css
+css: "style.css"
 ---
 
 [ABOUT ME](about-me/Final CV Graduate School.pdf) | [BIOL-3100-Final-Project](./final_project.html) 
