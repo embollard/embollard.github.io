@@ -3,7 +3,7 @@ output: html_document
 
 ---
 
-[ABOUT ME](about-me/Final CV Graduate School.pdf) | [Biol. 3100](./final_project.html)
+[ABOUT ME](about-me/Final CV Graduate School.pdf) | [Biol. 3100](./Final_Project.html)
 
 
 ```{r, out.width="50%", echo=FALSE, fig.align='center'}
